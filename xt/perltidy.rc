@@ -1,6 +1,6 @@
 #
 # Perltidy configuration file
-# perltidy -pro=_DEVEL/perltidyrc -b <files>
+# (perltidy -pro=_devel/perltidyrc -b -bext='/' <files>)
 #
 -i=4    # 4 columns indentation
 -ci=4   # 4 columns continuation identation

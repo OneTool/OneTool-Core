@@ -1,11 +1,10 @@
+package OneTool::Configuration;
 
 =head1 NAME
 
 OneTool::Configuration - OneTool Configuration module
 
 =cut
-
-package OneTool::Configuration;
 
 use strict;
 use warnings;

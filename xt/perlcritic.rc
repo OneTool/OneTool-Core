@@ -1,6 +1,6 @@
 #
 # PerlCritic configuration file
-# perlcritic -3 --profile _DEVEL/perlcriticrc <files>
+# perlcritic -3 --profile xt/perlcritic.rc <files>
 #
 
 #------------------------
@@ -40,7 +40,7 @@ severity = 5
 
 # I want to mix Case in Subs & Vars
 [-NamingConventions::Capitalization]
-#[-NamingConventions::ProhibitMixedCaseSubs]
+[-NamingConventions::ProhibitMixedCaseSubs]
 #[-NamingConventions::ProhibitMixedCaseVars]
 
 [-RegularExpressions::RequireDotMatchAnything]

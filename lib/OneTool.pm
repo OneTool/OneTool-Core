@@ -1,11 +1,14 @@
+package OneTool;
 
 =head1 NAME
 
-OneTool - OneTool Main Module
- 
-=cut
+OneTool - OneTool Main module
 
-package OneTool;
+=head1 DESCRIPTION
+
+OneTool is an integrated suite of programs (logmanagement, monitoring, wiki...)
+
+=cut
 
 use strict;
 use warnings;
