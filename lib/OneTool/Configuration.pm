@@ -17,6 +17,24 @@ my $DIR_CONFIG = "$FindBin::Bin/../conf";
 
 =head1 FUNCTIONS
 
+=head2 Directory($directory)
+
+Sets (if $directory provided) and returns $DIR_CONFIG value
+
+=cut
+
+sub Directory
+{
+    my $directory = shift;
+    
+    if (defined $directory)
+    {
+        $DIR_CONFIG = $directory;
+    }
+
+    return ($DIR_CONFIG);
+}
+
 =head2 Get($param)
 
 Gets configuration from file $param->{file} or for module $param->{module}
