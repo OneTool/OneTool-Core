@@ -26,7 +26,7 @@ Sets (if $directory provided) and returns $DIR_CONFIG value
 sub Directory
 {
     my $directory = shift;
-    
+
     if (defined $directory)
     {
         $DIR_CONFIG = $directory;
